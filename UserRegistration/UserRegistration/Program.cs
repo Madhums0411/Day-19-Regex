@@ -44,8 +44,7 @@ switch(num)
 
     case 6:
         RegexPassWordRule2 regexPassWordRule2 = new RegexPassWordRule2();
-        bool PassWord2 = regexPassWordRule2.validateString("ABJHFTDfg" +
-            "d");
+        bool PassWord2 = regexPassWordRule2.validateString("ABJHFTDfg");
         Console.WriteLine("{0}", (PassWord2) ? "Valid" : "Invalid");
         break;
 }
